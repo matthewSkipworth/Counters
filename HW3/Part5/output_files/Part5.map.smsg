@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at Count_to_Seven.sv(10): always construct contains both blocking and non-blocking assignments File: C:/UWT/TCES330/labs/HW3/Part5/Count_to_Seven.sv Line: 10

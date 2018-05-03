@@ -1,0 +1,16 @@
+//Matthew Skipworth
+//TCES330
+//SystemVerilog LPM Counter
+
+module Part3(clock, enable, clear, q);
+
+	input clock, enable, clear;
+	output q;
+
+	
+Altera_Adder_Sixteen_Bit (aclr, clk_en, clock, q);
+	
+	Altera_Counter_Sixteen_Bit	Altera_Counter_Sixteen_Bit_inst (.clock ( clock ), .cnt_en ( enable ), .sclr ( clear ), .q ( q ));
+
+
+endmodule

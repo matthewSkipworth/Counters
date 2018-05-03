@@ -1,0 +1,16 @@
+module Part1(KEY, SW, LEDR, HEX0, HEX1, HEX2, HEX3);
+	input [0:0] KEY;
+	input [1:0] SW;
+	
+	output [6:0] HEX3, HEX2, HEX1, HEX0;
+	
+	logic [15:0]q;
+	
+	Sixteen_Bit_Counter C1(enable, KEY, SW[1], q);
+	
+	HexHEXI(HEX0, q[3:0]);
+	HexHEXI(HEX1, q[7:4]);
+	HexHEXI(HEX2, q[11:8]);
+	HexHEXI(HEX3, q[15:12]);
+
+endmodule

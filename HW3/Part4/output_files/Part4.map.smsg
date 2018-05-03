@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at counter.sv(10): always construct contains both blocking and non-blocking assignments File: C:/UWT/TCES330/labs/HW3/Part4/counter.sv Line: 10

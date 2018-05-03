@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
+Slack : -2.608
+TNS   : -55.633
+
+Type  : Slow 1200mV 85C Model Setup 'KHzCLock:comb_3|Out'
+Slack : -0.361
+TNS   : -0.429
+
+Type  : Slow 1200mV 85C Model Hold 'KHzCLock:comb_3|Out'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
+Slack : 0.425
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -42.835
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'KHzCLock:comb_3|Out'
+Slack : -1.285
+TNS   : -3.855
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -2.272
+TNS   : -46.928
+
+Type  : Slow 1200mV 0C Model Setup 'KHzCLock:comb_3|Out'
+Slack : -0.248
+TNS   : -0.248
+
+Type  : Slow 1200mV 0C Model Hold 'KHzCLock:comb_3|Out'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.383
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -42.835
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'KHzCLock:comb_3|Out'
+Slack : -1.285
+TNS   : -3.855
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -0.793
+TNS   : -12.877
+
+Type  : Fast 1200mV 0C Model Setup 'KHzCLock:comb_3|Out'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'KHzCLock:comb_3|Out'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.191
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -43.524
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'KHzCLock:comb_3|Out'
+Slack : -1.000
+TNS   : -3.000
+
+------------------------------------------------------------

@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/UWT/TCES330/labs/HW3/Part2
+vSixteen_Bit_Counter2
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1525129193
+!i10b 1
+!s100 H`n<7B7=?Ahoc07Wi9WzO0
+IoZ:M>zkXaa50N2Ve1H=e=1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 Sixteen_Bit_Counter2_sv_unit
+S1
+R0
+Z5 w1525129190
+Z6 8./Sixteen_Bit_Counter2.sv
+Z7 F./Sixteen_Bit_Counter2.sv
+L0 11
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1525129193.000000
+Z10 !s107 ./Sixteen_Bit_Counter2.sv|
+Z11 !s90 -reportprogress|300|./Sixteen_Bit_Counter2.sv|
+!i113 1
+Z12 tCvgOpt 0
+n@sixteen_@bit_@counter2
+vSixteen_Bit_Counter2_testbench
+R1
+R2
+!i10b 1
+!s100 OT?hXiDA]eD7<HbR_>Pa`1
+IVz8fY;^90KBghjPAKj5aM2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 106
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n@sixteen_@bit_@counter2_testbench

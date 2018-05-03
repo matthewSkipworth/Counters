@@ -1,0 +1,118 @@
+|Part4
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+CLOCK_50 => CLOCK_50.IN1
+HEX0[6] << HexHEXI:H0.port0
+HEX0[5] << HexHEXI:H0.port0
+HEX0[4] << HexHEXI:H0.port0
+HEX0[3] << HexHEXI:H0.port0
+HEX0[2] << HexHEXI:H0.port0
+HEX0[1] << HexHEXI:H0.port0
+HEX0[0] << HexHEXI:H0.port0
+
+
+|Part4|KHzCLock:comb_3
+Clock => Out~reg0.CLK
+Clock => Q[0].CLK
+Clock => Q[1].CLK
+Clock => Q[2].CLK
+Clock => Q[3].CLK
+Clock => Q[4].CLK
+Clock => Q[5].CLK
+Clock => Q[6].CLK
+Clock => Q[7].CLK
+Clock => Q[8].CLK
+Clock => Q[9].CLK
+Clock => Q[10].CLK
+Clock => Q[11].CLK
+Clock => Q[12].CLK
+Clock => Q[13].CLK
+Clock => Q[14].CLK
+Clock => Q[15].CLK
+Clock => Q[16].CLK
+Clock => Q[17].CLK
+Clock => Q[18].CLK
+Clock => Q[19].CLK
+Clock => Q[20].CLK
+Clock => Q[21].CLK
+Clock => Q[22].CLK
+Clock => Q[23].CLK
+Clock => Q[24].CLK
+Clock => Q[25].CLK
+Clock => Q[26].CLK
+Clock => Q[27].CLK
+Clock => Q[28].CLK
+Clock => Q[29].CLK
+Out <= Out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Part4|Counter:counterInst
+Clock => Q[0]~reg0.CLK
+Clock => Q[1]~reg0.CLK
+Clock => Q[2]~reg0.CLK
+Clock => Q[3]~reg0.CLK
+Enable => Q.OUTPUTSELECT
+Enable => Q.OUTPUTSELECT
+Enable => Q.OUTPUTSELECT
+Enable => Q.OUTPUTSELECT
+Clear => Q.OUTPUTSELECT
+Clear => Q.OUTPUTSELECT
+Clear => Q.OUTPUTSELECT
+Clear => Q.OUTPUTSELECT
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Part4|HexHEXI:H0
+Hex[6] <= Hex.DB_MAX_OUTPUT_PORT_TYPE
+Hex[5] <= Hex.DB_MAX_OUTPUT_PORT_TYPE
+Hex[4] <= Hex.DB_MAX_OUTPUT_PORT_TYPE
+Hex[3] <= Hex.DB_MAX_OUTPUT_PORT_TYPE
+Hex[2] <= Hex.DB_MAX_OUTPUT_PORT_TYPE
+Hex[1] <= Hex.DB_MAX_OUTPUT_PORT_TYPE
+Hex[0] <= Hex.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => Hex.IN1
+S[0] => Hex.IN1
+S[0] => Hex.IN1
+S[0] => Hex.IN1
+S[0] => Hex.IN1
+S[0] => Hex.IN1
+S[0] => Hex.IN0
+S[0] => Hex.IN1
+S[0] => Hex.IN1
+S[0] => Hex.IN1
+S[0] => Hex.IN1
+S[0] => Hex.IN1
+S[0] => Hex.IN1
+S[0] => Hex.IN1
+S[0] => Hex.IN1
+S[0] => Hex.IN1
+S[0] => Hex.IN1
+S[1] => Hex.IN1
+S[1] => Hex.IN0
+S[1] => Hex.IN0
+S[1] => Hex.IN1
+S[1] => Hex.IN1
+S[1] => Hex.IN0
+S[1] => Hex.IN1
+S[1] => Hex.IN1
+S[1] => Hex.IN1
+S[1] => Hex.IN1
+S[1] => Hex.IN0
+S[2] => Hex.IN0
+S[2] => Hex.IN0
+S[2] => Hex.IN1
+S[2] => Hex.IN0
+S[2] => Hex.IN0
+S[2] => Hex.IN1
+S[3] => Hex.IN1
+S[3] => Hex.IN1
+S[3] => Hex.IN1
+S[3] => Hex.IN1
+S[3] => Hex.IN1
+S[3] => Hex.IN1
+S[3] => Hex.IN1
+
+
